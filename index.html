@@ -7,26 +7,43 @@
 </head>
 
 <body>
-    <nav id="navbar">
-        <a href ="index.html">
-            <img src="img/logo4.png" alt="" width="80px" href="index.html">
-            <h1 class="logo-name">Assignment 5</h1>
-            <div id="navbar-links">
-                <div class="dropdown">
-                    <button class="dropbtn">Menu</button>
-                <div class="dropdown-content">
+    <nav id="navbar">            
+        <h1 class="title">Assignment 5</h1>
+            <div>
+                <div>
                 <Button onclick="addRow()" class=" ">Add Rows</Button>
                 <Button onclick="addColumn()" class=" ">Add Column</Button>
                 <Button onclick="removeRow()" class=" ">Remove Rows</Button>
-                <Button onclick="addRow()" class=" ">Add Rows</Button>
+                <Button onclick="RemoveColumn()" class=" ">Remove Column</Button>
+                <Button onclick="fillAllUncolored()" class=" ">Fill All Uncolored</Button>
+                <Button onclick="fillWithSelectedColor()" class=" ">Remove Column</Button>
+                <Button onclick="clearCells()" class=" ">Clear Cells</Button>
+                <select>
+                    <option value="Red">Red</option>
+                    <option value="Orange">Orange</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="Green">Green</option>
+                    <option value="Indigo">Indigo</option>
+                    <option value="Violet">Violet</option>
+                </select>
             </div>
         </a>
     </nav>
     </div>
     </div>
+    <!-- Break up the page-->
+    <br>
 
     <!-- START GRID HERE -->
+    <div class="board" id="board">
+        <div class="row">
+    </div>
 
+    <footer>
+
+    </footer>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>

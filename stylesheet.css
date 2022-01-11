@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    background-color: #282D35;
+    font-family: Inter, sans-serif;
+    color:rgb(212, 197, 197);
+    font-size: 20px;
+}
+.title{
+  color: black;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+#navbar{
+  background-color: rgb(199, 200, 243);
+  display: flex;
+  align-items: center;
+  height: 35px;
+  padding:30px 25px;
+  }
+
+#navbar > a{
+    display: flex;
+    text-decoration: none;
+}
+
+#navbar-links{
+   margin-left:auto;
+}
+
+#navbar-links > a{
+    text-decoration: none;
+    padding: 2.5px;
+    font-size: 22px;
+}
+
+#navbar-links > a:hover{
+    font-weight: bold;
+    font-size: 30px;
+    border: 5px inset;
+    border-radius: 10px;
+}
+
+.board{
+  display: flex;
+  justify-content: center;
+}
+
+.row{
+  height: 50px;
+  width: 50px;
+  border: 1px black solid;
+}
+.col{
+  height: 50px;
+  width: 50px;
+  border: 1px black solid;
+}

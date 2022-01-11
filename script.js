@@ -29,17 +29,10 @@ board.removeChild(rows[rows.length-1]);
 // Columns
 
 function addColumn(){
-    // Create a new Div and make it look like a box
-    let newRow = document.createElement("div");
-    newRow.classList.add("row");
 
     // Base Case -- Nothing there
-    if(board.children.length === 0){
-        // Add new Row
-
-        return;
-    }else{
-        board.appendChild(newRow);
+    if(rows.length === 0){
+        addRow();
     }
 }
 
